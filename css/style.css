@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e9bbf7;
+}
+
+/* layout */
+
+#cabecalho{
+    background-color: #bd6cd5;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+	border-radius: 10px;
+}
+
+#menu-lateral{
+  background: #e9bbf7;
+}
+
+#area-postagens{
+  width: 660px;
+  float: left;
+}
+
+.postagem{
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+	border-radius: 10px;
+}
+
+.conteudo-lateral{
+	background: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+	
+}
+
+#menu-lateral{
+    width: 240px;
+    float: right;
+		border-radius: 10px;
+}
+
+#rodape{
+  background: #bd6cd5;
+  clear: both;
+  text-align: center;
+  padding: 15px 15px 30px 15px;
+}
+
+/* formatação menu */
+
+a{
+    text-decoration: none;
+
+}
+
+a:link, a:visited{
+    color: #bd6cd5;
+}
+
+a:hover{
+    background: #bd6cd5;
+    color: white;
+    padding: 3px 5px;
+		border-radius: 10px;
+		font-size: 13px;
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#cabecalho a:hover{
+    color: #bd6cd5;
+    background: #fff;
+    text-decoration: none;
+		border-radius: 10px;
+		font-size: 16px;
+}
+
+/* formatação geral */
+
+h1{
+    color: #2F0B3A;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #bd6cd5;
+
+}
+
+h3{
+	color: #2F0B3A;
+	background: #bd6cd5;
+	padding: 5px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.branco{
+    color: white;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #e9bbf7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.imagem-arredondada {
+    border-radius: 10px;
+}
+
+p{
+	text-align: justify;
+}
+
+.texto-postagem-lateral p{
+	font-size: 14px;
+}
+
+.texto-postagem-lateral a{
+	font-size: 13px;
+}
+
+.texto-postagem-lateral{
+	border-bottom: 1px solid #bd6cd5;
+	padding: 5px;
+}
+
+.texto-postagem-lateral:last-child {
+    border-bottom: none;
+}
+
+.menu-lateral a{
+	color: #bd6cd5;
+  text-decoration: none;
+	font-size: 16px;
+	
+}
